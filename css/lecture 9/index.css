@@ -1,0 +1,24 @@
+/* li:last-child {
+    color: green;
+} */
+
+li:nth-child(2n+3) {
+    color: blueviolet;
+}
+
+h1::after {
+    content:" ji"
+}
+
+h1::before {
+    content:"hii "
+}
+
+h1::first-letter {
+    color: blue;
+}
+
+h1::selection{
+    color: brown;
+    background-color: red;
+}
