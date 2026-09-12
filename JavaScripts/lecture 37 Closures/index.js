@@ -13,19 +13,19 @@
 
 
 
-function outter() {
-    let count = 0;
-    function counter() {
-        count = count + 1;
-        console.log(count);
-    }
+// function outter() {
+//     let count = 0;
+//     function counter() {
+//         count = count + 1;
+//         console.log(count);
+//     }
 
-    return counter
-}
+//     return counter
+// }
 
-const counter1 = outter();
-const counter2 = outter();
-counter1();
-counter2();
-counter2();
-counter2();
+// const counter1 = outter();
+// const counter2 = outter();
+// counter1();
+// counter2();
+// counter2();
+// counter2();
