@@ -35,10 +35,10 @@
 //     then(data => console.log(data))
 
 
-async function  getUser(username = "nishantsaini2331") {
-    // const response = await fetch(`https://api.github.com/users/${username}`)
-    // const data = await response.json()
-    // return data;
+async function  getUser(username = "mdtausik") {
+    const response = await fetch(`https://api.github.com/users/${username}`)
+    const data = await response.json()
+    return data;
 }
 
 
